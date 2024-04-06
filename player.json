@@ -1,0 +1,39 @@
+{
+    "players": [
+        {
+            "name": "Virat Kohli",
+            "team": "India",
+            "role": "Batsman",
+            "age": 34,
+            "country": "India"
+        },
+        {
+            "name": "Kane Williamson",
+            "team": "New Zealand",
+            "role": "Batsman",
+            "age": 32,
+            "country": "New Zealand"
+        },
+        {
+            "name": "Steve Smith",
+            "team": "Australia",
+            "role": "Batsman",
+            "age": 33,
+            "country": "Australia"
+        },
+        {
+            "name": "Jasprit Bumrah",
+            "team": "India",
+            "role": "Bowler",
+            "age": 31,
+            "country": "India"
+        },
+        {
+            "name": "Ben Stokes",
+            "team": "England",
+            "role": "All-rounder",
+            "age": 32,
+            "country": "England"
+        }
+    ]
+}
