@@ -1,39 +1,364 @@
 {
-    "players": [
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "products": [
         {
-            "name": "Virat Kohli",
-            "team": "India",
-            "role": "Batsman",
-            "age": 34,
-            "country": "India"
+          "id": 101,
+          "name": "Smartphone",
+          "price": 500,
+          "description": "High-performance smartphone with advanced features."
         },
         {
-            "name": "Kane Williamson",
-            "team": "New Zealand",
-            "role": "Batsman",
-            "age": 32,
-            "country": "New Zealand"
+          "id": 102,
+          "name": "Laptop",
+          "price": 1000,
+          "description": "Powerful laptop for work and entertainment."
         },
         {
-            "name": "Steve Smith",
-            "team": "Australia",
-            "role": "Batsman",
-            "age": 33,
-            "country": "Australia"
+          "id": 103,
+          "name": "Headphones",
+          "price": 100,
+          "description": "Premium headphones for immersive audio experience."
         },
         {
-            "name": "Jasprit Bumrah",
-            "team": "India",
-            "role": "Bowler",
-            "age": 31,
-            "country": "India"
+          "id": 104,
+          "name": "Smartwatch",
+          "price": 300,
+          "description": "Feature-rich smartwatch for fitness and connectivity."
         },
         {
-            "name": "Ben Stokes",
-            "team": "England",
-            "role": "All-rounder",
-            "age": 32,
-            "country": "England"
+          "id": 105,
+          "name": "Tablet",
+          "price": 400,
+          "description": "Versatile tablet for productivity and entertainment."
         }
-    ]
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Clothing",
+      "products": [
+        {
+          "id": 201,
+          "name": "T-Shirt",
+          "price": 20,
+          "description": "Comfortable cotton t-shirt for everyday wear."
+        },
+        {
+          "id": 202,
+          "name": "Jeans",
+          "price": 50,
+          "description": "Classic denim jeans for casual outings."
+        },
+        {
+          "id": 203,
+          "name": "Dress",
+          "price": 80,
+          "description": "Elegant dress for special occasions."
+        },
+        {
+          "id": 204,
+          "name": "Jacket",
+          "price": 100,
+          "description": "Stylish jacket for chilly weather."
+        },
+        {
+          "id": 205,
+          "name": "Sneakers",
+          "price": 70,
+          "description": "Fashionable sneakers for active lifestyle."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Home & Kitchen",
+      "products": [
+        {
+          "id": 301,
+          "name": "Coffee Maker",
+          "price": 50,
+          "description": "Automatic coffee maker for brewing delicious coffee."
+        },
+        {
+          "id": 302,
+          "name": "Blender",
+          "price": 40,
+          "description": "Versatile blender for smoothies and shakes."
+        },
+        {
+          "id": 303,
+          "name": "Cookware Set",
+          "price": 100,
+          "description": "Complete cookware set for culinary enthusiasts."
+        },
+        {
+          "id": 304,
+          "name": "Vacuum Cleaner",
+          "price": 150,
+          "description": "Powerful vacuum cleaner for efficient cleaning."
+        },
+        {
+          "id": 305,
+          "name": "Air Fryer",
+          "price": 80,
+          "description": "Healthy cooking with less oil using air fryer."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Books",
+      "products": [
+        {
+          "id": 401,
+          "name": "Fiction Novel",
+          "price": 15,
+          "description": "Engaging fiction novel for leisure reading."
+        },
+        {
+          "id": 402,
+          "name": "Cookbook",
+          "price": 25,
+          "description": "Collection of delicious recipes from around the world."
+        },
+        {
+          "id": 403,
+          "name": "Self-Help Book",
+          "price": 20,
+          "description": "Inspiring self-help book for personal growth."
+        },
+        {
+          "id": 404,
+          "name": "Biography",
+          "price": 30,
+          "description": "Compelling biography of a notable figure."
+        },
+        {
+          "id": 405,
+          "name": "Travel Guide",
+          "price": 20,
+          "description": "Informative travel guide for adventurous travelers."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Toys & Games",
+      "products": [
+        {
+          "id": 501,
+          "name": "Board Game",
+          "price": 30,
+          "description": "Classic board game for family fun."
+        },
+        {
+          "id": 502,
+          "name": "Action Figure",
+          "price": 10,
+          "description": "Collectible action figure for enthusiasts."
+        },
+        {
+          "id": 503,
+          "name": "Puzzle",
+          "price": 15,
+          "description": "Challenging puzzle for brain-teasing entertainment."
+        },
+        {
+          "id": 504,
+          "name": "Remote Control Car",
+          "price": 40,
+          "description": "Exciting remote control car for racing enthusiasts."
+        },
+        {
+          "id": 505,
+          "name": "Doll",
+          "price": 20,
+          "description": "Adorable doll for imaginative play."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sports & Outdoors",
+      "products": [
+        {
+          "id": 601,
+          "name": "Yoga Mat",
+          "price": 20,
+          "description": "Comfortable yoga mat for yoga and exercise."
+        },
+        {
+          "id": 602,
+          "name": "Camping Tent",
+          "price": 100,
+          "description": "Durable camping tent for outdoor adventures."
+        },
+        {
+          "id": 603,
+          "name": "Bicycle",
+          "price": 300,
+          "description": "High-quality bicycle for commuting and recreation."
+        },
+        {
+          "id": 604,
+          "name": "Basketball",
+          "price": 25,
+          "description": "Official size basketball for sports enthusiasts."
+        },
+        {
+          "id": 605,
+          "name": "Hiking Backpack",
+          "price": 50,
+          "description": "Spacious hiking backpack for outdoor treks."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Beauty & Personal Care",
+      "products": [
+        {
+          "id": 701,
+          "name": "Shampoo",
+          "price": 10,
+          "description": "Gentle shampoo for healthy and shiny hair."
+        },
+        {
+          "id": 702,
+          "name": "Facial Cleanser",
+          "price": 15,
+          "description": "Refreshing facial cleanser for clean and clear skin."
+        },
+        {
+          "id": 703,
+          "name": "Moisturizer",
+          "price": 20,
+          "description": "Hydrating moisturizer for smooth and supple skin."
+        },
+        {
+          "id": 704,
+          "name": "Perfume",
+          "price": 50,
+          "description": "Luxurious perfume for all-day fragrance."
+        },
+        {
+          "id": 705,
+          "name": "Makeup Kit",
+          "price": 40,
+          "description": "Complete makeup kit for flawless beauty."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Furniture",
+      "products": [
+        {
+          "id": 801,
+          "name": "Sofa",
+          "price": 500,
+          "description": "Comfortable sofa for living room relaxation."
+        },
+        {
+          "id": 802,
+          "name": "Dining Table",
+          "price": 300,
+          "description": "Stylish dining table for family gatherings."
+        },
+        {
+          "id": 803,
+          "name": "Bed Frame",
+          "price": 400,
+          "description": "Sturdy bed frame for a restful sleep."
+        },
+        {
+          "id": 804,
+          "name": "Bookshelf",
+          "price": 100,
+          "description": "Functional bookshelf for organizing books and decor."
+        },
+        {
+          "id": 805,
+          "name": "Coffee Table",
+          "price": 200,
+          "description": "Chic coffee table for living room elegance."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Jewelry",
+      "products": [
+        {
+          "id": 901,
+          "name": "Necklace",
+          "price": 100,
+          "description": "Elegant necklace for adding a touch of glamour."
+        },
+        {
+          "id": 902,
+          "name": "Bracelet",
+          "price": 80,
+          "description": "Stylish bracelet for accessorizing any outfit."
+        },
+        {
+          "id": 903,
+          "name": "Earrings",
+          "price": 60,
+          "description": "Sparkling earrings for a dazzling look."
+        },
+        {
+          "id": 904,
+          "name": "Ring",
+          "price": 120,
+          "description": "Exquisite ring for special occasions."
+        },
+        {
+          "id": 905,
+          "name": "Watch",
+          "price": 150,
+          "description": "Luxurious watch for timeless style."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Automotive",
+      "products": [
+        {
+          "id": 1001,
+          "name": "Car Wax",
+          "price": 15,
+          "description": "High-quality car wax for a glossy finish."
+        },
+        {
+          "id": 1002,
+          "name": "Tire Shine",
+          "price": 10,
+          "description": "Long-lasting tire shine for a sleek look."
+        },
+        {
+          "id": 1003,
+          "name": "Car Air Freshener",
+          "price": 5,
+          "description": "Refreshing car air freshener for pleasant drives."
+        },
+        {
+          "id": 1004,
+          "name": "Car Charger",
+          "price": 20,
+          "description": "Fast-charging car charger for on-the-go convenience."
+        },
+        {
+          "id": 1005,
+          "name": "Car Organizer",
+          "price": 30,
+          "description": "Organize your car essentials with this handy organizer."
+        }
+      ]
+    }
+  ]
 }
